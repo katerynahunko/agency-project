@@ -1,0 +1,10 @@
+.main-title {
+    font-weight: 900;
+    @include font (44px, 1.36, 0.06em);
+       text-align: center;
+    text-transform: uppercase;
+    color: var(--light-color);
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
