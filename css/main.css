@@ -18,7 +18,7 @@
   overflow: hidden;
 }
 
-.contact-form__label, .modal__btn__close, .footer-subscribe-wrapper, .footer-subscribe-btn, .footer-subscribe-input::placeholder, .footer-social__link, .footer-social__list, .customers-list__link, .customers-list, .duties-text, .features-list__container, .features-list__icon, .header__container, .social-list__link, .social-list {
+.contact-form__label, .modal__btn__close, .footer-subscribe-wrapper, .footer-subscribe-btn, .footer-subscribe-input::placeholder, .footer-social__link, .footer-social__list, .customers-list__link, .customers-list, .features-list__container, .features-list__icon, .header__container, .social-list__link, .social-list {
   display: flex;
   align-items: center;
 }
@@ -64,8 +64,8 @@ nav {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container {
@@ -487,20 +487,15 @@ nav {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-desktop@2x.jpg");
   }
 }
-.features {
-  padding-bottom: 0;
-}
-
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  flex-direction: column;
   margin-top: -30px;
   padding-left: 0;
 }
 
 .features-list__container {
-  width: 270px;
   height: 120px;
   justify-content: center;
   background-color: #f5f4fa;
@@ -508,12 +503,12 @@ nav {
 }
 
 .features-list__item {
-  margin-right: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
 .features-list__title {
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -529,48 +524,18 @@ nav {
   color: var(--text-color);
 }
 
-.duties-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: -30px;
-  padding-inline-start: 0;
-}
-
-.duties-list__item {
-  margin-right: 30px;
-  margin-top: 30px;
-  flex-basis: calc((100% - 90px) / 3);
-}
-
-.duties-img-thumb {
-  position: relative;
-}
-
-.duties-text {
-  position: absolute;
-  justify-content: center;
-  bottom: 0;
-  left: 0;
-  width: 370px;
-  height: 70px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--light-color);
-  background: rgba(47, 48, 58, 0.8);
+.duties {
+  display: none;
 }
 
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   margin-right: -30px;
   margin-top: -30px;
   padding-inline-start: 0;
