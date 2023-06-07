@@ -1,7 +1,3 @@
-.customers__container {
-width: auto;
-}
-
 .customers-list {
   @extend %align;
     flex-wrap: wrap;
@@ -28,10 +24,12 @@ width: auto;
       }
   }
   
-  .customers-list__item:nth-child(1n) {
+  .customers-list__item {
+  margin-bottom: 30px;
+  &:not(:nth-child(2n)) {
     margin-right: 30px;
-    margin-bottom: 30px;
-  }
+      }
+    }
   
 
 

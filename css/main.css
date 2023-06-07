@@ -576,10 +576,6 @@ nav {
   color: var(--text-color);
 }
 
-.customers__container {
-  width: auto;
-}
-
 .customers-list {
   flex-wrap: wrap;
   justify-content: center;
@@ -601,9 +597,11 @@ nav {
   border: 1px solid var(--accent-color);
 }
 
-.customers-list__item:nth-child(1n) {
-  margin-right: 30px;
+.customers-list__item {
   margin-bottom: 30px;
+}
+.customers-list__item:not(:nth-child(2n)) {
+  margin-right: 30px;
 }
 
 .address-list {
