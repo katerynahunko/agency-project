@@ -46,6 +46,8 @@ border-bottom: 1px solid #ececec;
   padding-top: 48px;
   padding-left: 40px;
   padding-bottom: 48px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .mobile-menu__list {
@@ -110,6 +112,7 @@ border-bottom: 1px solid #ececec;
   justify-content: flex-start;
   align-items: center;
   margin-top: 64px;
+  width: auto;
 }
 
 .mobile-menu__social-item:not(:last-child) {
