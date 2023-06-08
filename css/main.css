@@ -797,16 +797,13 @@ footer {
 
 .projects-list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: -30px;
   padding-left: 0;
 }
 
 .projects-list__item {
-  margin-right: 30px;
   margin-top: 30px;
-  flex-basis: calc((100% - 90px) / 3);
 }
 
 .projects-list__thumb {
@@ -1002,6 +999,7 @@ footer {
 
 .contact-form__checkfield {
   margin-bottom: 30px;
+  overflow-x: hidden;
 }
 
 .contact-form__checkmark {

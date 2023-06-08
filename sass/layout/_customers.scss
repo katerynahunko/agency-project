@@ -28,8 +28,11 @@
   
   .customers-list__item {
   margin-bottom: 30px;
+  
+  // &:nth-child(2n+1) {
     margin-right: 30px;
-      }
+  }
+      
     
   
 
