@@ -170,9 +170,10 @@ border-bottom: 1px solid #ececec;
 
   .header-contacts {
     display: block;
-    margin-left: 68px;
+    margin-left: auto;
+    margin-right: 0;
     padding-left: 0;
-  }
+}
 
   .header-contacts__item:not(:last-child) {
     margin-bottom: 10px;

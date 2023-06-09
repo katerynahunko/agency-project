@@ -82,7 +82,6 @@ footer {
   fill: var(--light-color);
 }
 
-
 .footer-subscribe-input {
   
   background-color: transparent;
@@ -147,58 +146,73 @@ footer {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 768px) {
 
-// .footer__container {
-//   flex-direction: row;
-//   align-items: baseline;
-//   width: fit-content;
-// }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer__container {
+      flex-wrap: wrap;
+     align-items: baseline; 
+     flex-direction: row;
+}
+
+.footer-social {
+  margin-left: 165px;
+}
+
+.footer-title {
+  margin-top: 0;
+}
+
+.footer-third-block {
+  margin: 60px 159px;
+  margin-bottom: 0;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.footer__container {
+    flex-wrap: nowrap;
+}
+  
+  .footer-social {
+    margin: 0;
+  }
    
+  .footer-title {
+    text-align: left;
+  }
+
+  .footer-third-block {
+    margin-left: 92px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+    
+  .footer-subscribe-wrapper {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+     }
   
-//   footer {
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-//   }
-  
-//   .footer-social {
-//     margin-left: 70px;
-//   }
-  
-//   .footer-title {
-  // margin-top: ???;
-  // text-align: ???;
-//   }
-  
-//   .footer-social__list {
-  // justify-content: ???;
-//   }
-  
-//   .footer-third-block {
-//     margin-left: 92px;
-//   }
-  
-//   .footer-subscribe-input {
-//     display: block;
-//     width: 358px;
-//     margin-right: 12px;
-//     padding-left: 16px;
-//   }
-  
-  
-//   .footer-subscribe-btn {
-//     padding: 10px 20px;
-//     
-//   }
-  
-//   .footer-subscribe-wrapper {
-//     @extend %align;
-//    }
-  
-// .footer-subscribe-input {
-//   display: block;
-//   
-//   width: 358px;
-//   height: 50px;
-//   margin-right: 12px;
-//   padding-left: 16px;  
-// }
+.footer-subscribe-input {
+  display: block;
+    width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding-left: 16px;  
+}
+
+.footer-subscribe-btn {
+  margin: 0;
+}
+
+.address-list {
+   align-items: flex-start;
+   margin-right: 70px;
+   width: 230px;
+}
+}

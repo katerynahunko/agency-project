@@ -1,10 +1,8 @@
-
-
   .features-list {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: -30px;
+     margin-top: -30px;
+     margin-left: -30px;
     padding-left: 0;
   }
   
@@ -21,8 +19,8 @@
   }
   
   .features-list__item {
+    margin-left: 30px;
     margin-top: 30px;
-    flex-basis: calc((100% - 120px) / 4);
   }
   
   .features-list__title {
@@ -38,49 +36,49 @@
     color: var(--text-color);
   }
 
+  @media screen and (max-width: 767px) {
+    .features-list {
+     flex-direction: column;
+  }
+}
+
+  @media screen and (min-width: 768px) {
+    .features-list {
+     margin-left: -30px;
+    margin-top: -30px;
+   }
+
+   .features-list__container {
+    width: 354px;
+   }
+
+   .features-list__item {
+    margin-left: 30px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
+
+  .features__container {
+  margin: 0 auto;
+}
+  }
+
+  @media screen and (min-width: 1200px) {
+   .features {
+    padding-bottom: 0;
+  }
   
-  
-  // // 
-  // .features {
-  //   padding-bottom: 0;
-  // }
-  
-  
-  // .features-list {
-  // //   display: flex;
-  // //   flex-wrap: wrap;
-  // //   margin-right: -30px;
-  // //   margin-top: -30px;
-  // //   padding-left: 0;
-  // // }
-  
-  // .features-list__icon {
-  //   @extend %align;
-  // }
-  
-  // .features-list__container {
-  //   width: 270px;
-  //   height: 120px;
-  //   @extend %align;
-  //   justify-content: center;
-  //   background-color: #f5f4fa;
-  //   margin-bottom: 30px;
-  // }
-  
-  // .features-list__item {
-  //   margin-right: 30px;
-  //   margin-top: 30px;
-  //   flex-basis: calc((100% - 120px) / 4);
-  // }
-  
-  // .features-list__title {
-  //   font-weight: 700;
-  //   @include font (14px, 1.15, 0.03em);
-  //   text-transform: uppercase;
-  //   margin-bottom: 10px;
-  // }
-  
-  // .features-list__dscr {
-  //   @include font (14px, 1.71, 0.03em);
-  //   color: var(--text-color);
-  // }
+  .features-list__container {
+    width: 270px;
+  }
+
+  .features-list {
+       flex-wrap: nowrap;
+  }
+  .features-list__item {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+
+  .features-list__title {
+    text-align: left;
+}
+  }
