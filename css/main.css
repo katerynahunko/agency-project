@@ -24,7 +24,7 @@
 }
 
 * {
-  outline-color: red;
+  outline: 1px solid red;
 }
 
 body {
@@ -567,6 +567,9 @@ nav {
   .features__container {
     margin: 0 auto;
   }
+  .features-list__title {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1200px) {
   .features {
@@ -580,9 +583,6 @@ nav {
   }
   .features-list__item {
     flex-basis: calc((100% - 120px) / 4);
-  }
-  .features-list__title {
-    text-align: left;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -1051,6 +1051,9 @@ footer {
   }
   .projects-list {
     flex-direction: row;
+  }
+  .projects-list__item {
+    flex-basis: calc((100% - 90px) / 3);
   }
 }
 .backdrop {

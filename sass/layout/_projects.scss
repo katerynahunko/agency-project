@@ -98,4 +98,8 @@ margin-top: -30px;
     .projects-list {
       flex-direction: row;
     }
+
+    .projects-list__item {
+      flex-basis: calc((100% - 90px) / 3); 
+     }
   }

@@ -60,6 +60,10 @@
   .features__container {
     margin: 0 auto;
   }
+
+  .features-list__title {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -76,9 +80,5 @@
   }
   .features-list__item {
     flex-basis: calc((100% - 120px) / 4);
-  }
-
-  .features-list__title {
-    text-align: left;
   }
 }
