@@ -86,7 +86,12 @@ margin-top: -30px;
   }
 
   .projects-list__item {
-   margin-left: 30px;   
+   margin-left: 30px; 
+   display: flex;  
+  }
+
+  .projects-list__link {
+    flex-grow: 1;
   }
 }
 
@@ -97,6 +102,7 @@ margin-top: -30px;
 
     .projects-list {
       flex-direction: row;
+      padding-left: 0;
     }
 
     .projects-list__item {
