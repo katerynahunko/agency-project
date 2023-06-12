@@ -1,3 +1,7 @@
+* {
+  outline-color: red;
+}
+
 body {
   font-family: var(--primary-font-family);
   color: #212121;
@@ -20,6 +24,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {

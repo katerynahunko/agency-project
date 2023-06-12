@@ -55,6 +55,10 @@
     padding-top: 94px;
   }
 
+  .team-list {
+      flex-wrap: nowrap;
+  }
+
   .team-list__member {
     flex-basis: calc((100% - 120px) / 4);
   }
