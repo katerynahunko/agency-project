@@ -4,10 +4,13 @@
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 40px;
+  margin-right: -8px;
+  margin-top: -8px;
 }
 
-.filter-list__item:not(:last-child) {
+.filter-list__item {
   margin-right: 8px;
+  margin-top: 8px;
 }
 
 .filter-list__btn {
