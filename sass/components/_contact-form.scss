@@ -1,3 +1,10 @@
+  .contact-form__checkmark {
+    position: absolute;
+   width: 11px;
+   height: 10px;
+  }
+ 
+
 .contact-form__field {
   display: block;
   margin-bottom: 10px;
@@ -72,7 +79,7 @@
 
 .contact-form__label {
   @extend %align;
-  @include font(12px, 1.17, 0.03em);
+  @include font(11px, 1.17, 0.03em);
   text-align: left;
   color: var(--text-color);
 
@@ -103,13 +110,6 @@
   overflow-x: hidden;
 }
 
-.contact-form__checkmark {
-  position: absolute;
-  width: 16px;
-  height: 15px;
-  padding-left: 2px;
-}
-
 .policy-link {
   color: var(--accent-color);
   display: inline-block;
@@ -136,10 +136,19 @@
   }
 }
 
+@media screen and (min-width: 380px) {
+.contact-form__checkmark {
+  width: 14px;
+  height: 14px;
+}
+.contact-form__label {
+  font-size: 12px;
+}
+}
+
 @media screen and (min-width: 1200px) {
   .contact-form__checkmark {
-    width: 14px;
-    height: 14px;
+    padding-left: 2px;
   }
 
   .contact-form__message {

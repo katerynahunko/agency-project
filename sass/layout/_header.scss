@@ -39,6 +39,7 @@ border-bottom: 1px solid #ececec;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    position: fixed;
   }
 }
 
@@ -59,12 +60,12 @@ border-bottom: 1px solid #ececec;
 }
 
 .mobile-menu__item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 
 .mobile-menu__link {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #212121;
@@ -83,12 +84,12 @@ border-bottom: 1px solid #ececec;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 
 .mobile-menu__contacts-link {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #757575;
@@ -101,11 +102,11 @@ border-bottom: 1px solid #ececec;
 }
 
 .mobile-menu__contacts-item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 
 .mobile-menu__tel {
-  font-size: 34px;
+  font-size: 28px;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -116,7 +117,7 @@ border-bottom: 1px solid #ececec;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 20vh;
   width: auto;
   margin-left: -10px;
   margin-bottom: -10px;
@@ -134,7 +135,7 @@ border-bottom: 1px solid #ececec;
 
 .mobile-menu__social-link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196f3;
