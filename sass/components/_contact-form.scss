@@ -79,7 +79,7 @@
 
 .contact-form__label {
   @extend %align;
-  @include font(11px, 1.17, 0.03em);
+  @include font(8px, 1.17, 0.03em);
   text-align: left;
   color: var(--text-color);
 
