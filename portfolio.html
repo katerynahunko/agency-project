@@ -2,630 +2,520 @@
 <html lang="uk">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container header__container">
-          <a class="logo-top link" href="index.html">
-            <span class="logo__web">Web</span><span class="logo-top__studio">Studio</span>
-          </a>
-          <nav class="navigation">
-            <ul class="nav-list list">
-              <li class="nav-list__item">
-                <a class="nav-list__link link" href="index.html">Студія</a>
-              </li>
-              <li class="nav-list__item">
-                <a class="nav-list__link current link" href="portfolio.html">Портфоліо</a>
-              </li>
-              <li class="nav-list__item">
-                <a class="nav-list__link link" href="index.html">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <button type="button" class="mobile-menu__btn" data-menu-open>
-            <svg class="mobile-menu__btn-icon" width="40" height="40">
-              <use href="images/icons.svg#icon-burger-menu">
-              </use>
-            </svg>
-          </button>
-          <ul class="header-contacts list">
-            <li class="header-contacts__item">
-              <a class="header-contacts__link link" href="mailto:info@devstudio.com">
-                <svg class="contacts__icon" width="16" height="12">
-                  <use href="images/icons.svg#icon-envelope"></use>
-                </svg>info@devstudio.com</a>
-            </li>
-            <li class="header-contacts__item">
-              <a class="header-contacts__link link" href="tel:+380961111111"><svg class="contacts__icon" width="10"
-                  height="16">
-                  <use href="images/icons.svg#icon-smartphone"></use>
-                </svg>+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
-    
-        <div class="mobile-menu" data-menu>
-          <div class="container mobile-menu__container">
-            <button type="button" class="mobile-menu__close-btn" data-menu-close>
-              <svg class="mobile-menu__close-icon" width="40" height="40">
-                <use href="images/icons.svg#icon-close"></use>
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo-top link" href="index.html">
+        <span class="logo__web">Web</span><span class="logo-top__studio">Studio</span>
+      </a>
+      <nav class="navigation">
+        <ul class="nav-list list">
+          <li class="nav-list__item">
+            <a class="nav-list__link link" href="index.html">Студія</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link current link" href="portfolio.html">Портфоліо</a>
+          </li>
+          <li class="nav-list__item">
+            <a class="nav-list__link link" href="index.html">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="mobile-menu__btn" data-menu-open>
+        <svg class="mobile-menu__btn-icon" width="40" height="40">
+          <use href="images/icons.svg#icon-burger-menu">
+          </use>
+        </svg>
+      </button>
+      <ul class="header-contacts list">
+        <li class="header-contacts__item">
+          <a class="header-contacts__link link" href="mailto:info@devstudio.com">
+            <svg class="contacts__icon" width="16" height="12">
+              <use href="images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+        </li>
+        <li class="header-contacts__item">
+          <a class="header-contacts__link link" href="tel:+380961111111"><svg class="contacts__icon" width="10"
+              height="16">
+              <use href="images/icons.svg#icon-smartphone"></use>
+            </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu__container">
+        <button type="button" class="mobile-menu__close-btn" data-menu-close>
+          <svg class="mobile-menu__close-icon" width="40" height="40">
+            <use href="images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu__list list">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link link" href="index.html">Студія</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link current link" href="portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link link" href="index.html">Контакти</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__contacts-list list">
+          <li class="mobile-menu__contacts-item">
+            <a class="mobile-menu__contacts-link mobile-menu__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-menu__contacts-item">
+            <a class="mobile-menu__contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__social-list list">
+          <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link link" href="">Instagram</a>
+          </li>
+          <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link link" href="">Twitter</a>
+          </li>
+          <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link link" href="">Facebook</a>
+          </li>
+          <li class="mobile-menu__social-item">
+            <a class="mobile-menu__social-link link" href="">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section filter">
+      <div class="container">
+        <ul class="filter-list list">
+          <li class=filter-list__item>
+            <button class="filter-list__btn">Усі</button>
+          </li>
+          <li class=filter-list__item>
+            <button class="filter-list__btn">Веб-сайти</button>
+          </li>
+          <li class=filter-list__item>
+            <button class="filter-list__btn">Додатки</button>
+          </li>
+          <li class=filter-list__item>
+            <button class="filter-list__btn">Дизайн</button>
+          </li>
+          <li class=filter-list__item>
+            <button class="filter-list__btn">Маркетинг</button>
+          </li>
+        </ul>
+        <h2 class="visually-hidden">Проєкти</h2>
+        <ul class="projects-list list">
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-1-desktop1x.webp 1x, ./images/project-1-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-1-desktop1x.jpg 1x, ./images/project-1-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-1-tablet1x.webp 1x, ./images/project-1-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-1-tablet1x.jpg 1x, ./images/project-1-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-1-mobile1x.webp 1x, ./images/project-1-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-1-mobile1x.jpg 1x, ./images/project-1-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-1-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Технокряк</h3>
+                <p class="projects-list__dscr">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-2-desktop1x.webp 1x, ./images/project-2-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-2-desktop1x.jpg 1x, ./images/project-2-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-2-tablet1x.webp 1x, ./images/project-2-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-2-tablet1x.jpg 1x, ./images/project-2-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-2-mobile1x.webp 1x, ./images/project-2-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-2-mobile1x.jpg 1x, ./images/project-2-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-2-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Постер New Orlean vs Golden Star</h3>
+                <p class="projects-list__dscr">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-3-desktop1x.webp 1x, ./images/project-3-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-3-desktop1x.jpg 1x, ./images/project-3-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-3-tablet1x.webp 1x, ./images/project-3-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-3-tablet1x.jpg 1x, ./images/project-3-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-3-mobile1x.webp 1x, ./images/project-3-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-3-mobile1x.jpg 1x, ./images/project-3-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-3-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Ресторан Seafood</h3>
+                <p class="projects-list__dscr">Додаток</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-4-desktop1x.webp 1x, ./images/project-4-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-4-desktop1x.jpg 1x, ./images/project-4-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-4-tablet1x.webp 1x, ./images/project-4-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-4-tablet1x.jpg 1x, ./images/project-4-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-4-mobile1x.webp 1x, ./images/project-4-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-4-mobile1x.jpg 1x, ./images/project-4-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-4-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Проєкт Prime</h3>
+                <p class="projects-list__dscr">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-5-desktop1x.webp 1x, ./images/project-5-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-5-desktop1x.jpg 1x, ./images/project-5-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-5-tablet1x.webp 1x, ./images/project-5-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-5-tablet1x.jpg 1x, ./images/project-5-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-5-mobile1x.webp 1x, ./images/project-5-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-5-mobile1x.jpg 1x, ./images/project-5-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-5-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Проєкт Boxes</h3>
+                <p class="projects-list__dscr">Додаток</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-6-desktop1x.webp 1x, ./images/project-6-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-6-desktop1x.jpg 1x, ./images/project-6-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-6-tablet1x.webp 1x, ./images/project-6-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-6-tablet1x.jpg 1x, ./images/project-6-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-6-mobile1x.webp 1x, ./images/project-6-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-6-mobile1x.jpg 1x, ./images/project-6-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-6-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Inspiration has no Borders</h3>
+                <p class="projects-list__dscr">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-7-desktop1x.webp 1x, ./images/project-7-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-7-desktop1x.jpg 1x, ./images/project-7-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-7-tablet1x.webp 1x, ./images/project-7-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-7-tablet1x.jpg 1x, ./images/project-7-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-7-mobile1x.webp 1x, ./images/project-7-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-7-mobile1x.jpg 1x, ./images/project-7-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-7-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Видання Limited Edition</h3>
+                <p class="projects-list__dscr">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-8-desktop1x.webp 1x, ./images/project-8-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-8-desktop1x.jpg 1x, ./images/project-8-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-8-tablet1x.webp 1x, ./images/project-8-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-8-tablet1x.jpg 1x, ./images/project-8-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-8-mobile1x.webp 1x, ./images/project-8-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-8-mobile1x.jpg 1x, ./images/project-8-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-8-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Проєкт LAB</h3>
+                <p class="projects-list__dscr">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects-list__item">
+            <a class="projects-list__link link" href="index.html">
+              <div class="projects-list__thumb">
+                <picture>
+                  <source srcset="./images/project-9-desktop1x.webp 1x, ./images/project-9-desktop2x.webp 2x"
+                    media="(min-width: 1200px)" type="image/webp" />
+                  <source srcset="./images/project-9-desktop1x.jpg 1x, ./images/project-9-desktop2x.jpg 2x"
+                    media="(min-width: 1200px)" />
+
+                  <source srcset="./images/project-9-tablet1x.webp 1x, ./images/project-9-tablet2x.webp 2x"
+                    media="(min-width: 768px)" type="image/webp" />
+
+                  <source srcset="./images/project-9-tablet1x.jpg 1x, ./images/project-9-tablet2x.jpg 2x"
+                    media="(min-width: 768px)" />
+
+                  <source srcset="./images/project-9-mobile1x.webp 1x, ./images/project-9-mobile2x.webp 2x"
+                    media="(max-width: 767px)" type="image/webp" />
+
+                  <source srcset="./images/project-9-mobile1x.jpg 1x, ./images/project-9-mobile2x.jpg 2x"
+                    media="(max-width: 767px)" />
+
+                  <img src="./images/project-9-mobile1x.jpg" alt="член команди" class="picture-img" />
+                </picture>
+                <div class="projects-list__text">
+                  <p>Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це
+                    дозволить відвідувачу отримати
+                    вичерпні відомості про компанію чи приватну особу.</p>
+                </div>
+              </div>
+              <div class="projects-list__wrapper">
+                <h3 class="projects-list__title">Growing Business</h3>
+                <p class="projects-list__dscr">Додаток</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section">
+    <div class="container footer__container">
+      <div>
+        <a class="logo-footer__link link" href="index.html">
+          <span class="logo__web">Web</span><span class="logo-footer__studio">Studio</span>
+        </a>
+        <address class="address-list list link">
+          <span class="address-list__item address">м. Київ, пр-т Лесі Українки, 26</span>
+          <a class="address-list__item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="address-list__item link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+      </div>
+      <div class="footer-social">
+        <h3 class="footer-title">приєднуйтесь</h3>
+        <ul class="footer-social__list list">
+          <li class="footer-social__item">
+            <a class="footer-social__link link" href="">
+              <svg class="footer-social__icon" width="20" height="20">
+                <use href="images/icons.svg#icon-instagram">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a class="footer-social__link link" href="">
+              <svg class="footer-social__icon" width="20" height="20">
+                <use href="images/icons.svg#icon-twitter">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a class="footer-social__link link" href="">
+              <svg class="footer-social__icon" width="20" height="20">
+                <use href="images/icons.svg#icon-facebook">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a class="footer-social__link link" href="">
+              <svg class="footer-social__icon" width="20" height="20">
+                <use href="images/icons.svg#icon-linkedin">
+                </use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-third-block">
+        <h3 class="footer-title">Підпишіться на розсилку</h3>
+        <form>
+          <span class="footer-subscribe-wrapper">
+            <input name="user_email" type="email" class="footer-subscribe-input" placeholder="E-mail" />
+            <button type="submit" class="footer-subscribe-btn">
+              Підписатися
+              <svg class="footer-subscribe-icon">
+                <use href="images/icons.svg#icon-letter-send" width="24" height="24">
+                </use>
               </svg>
             </button>
-            <ul class="mobile-menu__list list">
-              <li class="mobile-menu__item">
-                <a class="mobile-menu__link link" href="index.html">Студія</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a class="mobile-menu__link current link" href="portfolio.html">Портфоліо</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a class="mobile-menu__link link" href="index.html">Контакти</a>
-              </li>
-            </ul>
-            <ul class="mobile-menu__contacts-list list">
-              <li class="mobile-menu__contacts-item">
-                <a class="mobile-menu__contacts-link mobile-menu__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
-              <li class="mobile-menu__contacts-item">
-                <a class="mobile-menu__contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-            </ul>
-            <ul class="mobile-menu__social-list list">
-                              <li class="mobile-menu__social-item">
-                  <a class="mobile-menu__social-link link" href="">Instagram</a>
-                </li>
-                <li class="mobile-menu__social-item">
-                  <a class="mobile-menu__social-link link" href="">Twitter</a>
-                </li>
-                <li class="mobile-menu__social-item">
-                  <a class="mobile-menu__social-link link" href="">Facebook</a>
-                </li>
-                <li class="mobile-menu__social-item">
-                  <a class="mobile-menu__social-link link" href="">LinkedIn</a>
-                </li>
-            </ul>
-          </div>
-        </div>
-      </header>
-    <main>
-        <section class="section filter">
-            <div class="container">
-                <ul class="filter-list list">
-                    <li class=filter-list__item>
-                        <button class="filter-list__btn">Усі</button>
-                    </li>
-                    <li class=filter-list__item>
-                        <button class="filter-list__btn">Веб-сайти</button>
-                    </li>
-                    <li class=filter-list__item>
-                        <button class="filter-list__btn">Додатки</button>
-                    </li>
-                    <li class=filter-list__item>
-                        <button class="filter-list__btn">Дизайн</button>
-                    </li>
-                    <li class=filter-list__item>
-                        <button class="filter-list__btn">Маркетинг</button>
-                    </li>
-                </ul>
-                <h2 class="visually-hidden">Проєкти</h2>
-                <ul class="projects-list list">
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-1-desktop1x.webp 1x, ./images/project-1-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-1-desktop1x.jpg 1x, ./images/project-1-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-1-tablet1x.webp 1x, ./images/project-1-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-1-tablet1x.jpg 1x, ./images/project-1-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-1-mobile1x.webp 1x, ./images/project-1-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-1-mobile1x.jpg 1x, ./images/project-1-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-1-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Технокряк</h3>
-                                    <p class="projects-list__dscr">Веб-сайт</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-2-desktop1x.webp 1x, ./images/project-2-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-2-desktop1x.jpg 1x, ./images/project-2-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-2-tablet1x.webp 1x, ./images/project-2-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-2-tablet1x.jpg 1x, ./images/project-2-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-2-mobile1x.webp 1x, ./images/project-2-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-2-mobile1x.jpg 1x, ./images/project-2-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-2-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Постер New Orlean vs Golden Star</h3>
-                                    <p class="projects-list__dscr">Дизайн</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-3-desktop1x.webp 1x, ./images/project-3-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-3-desktop1x.jpg 1x, ./images/project-3-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-3-tablet1x.webp 1x, ./images/project-3-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-3-tablet1x.jpg 1x, ./images/project-3-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-3-mobile1x.webp 1x, ./images/project-3-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-3-mobile1x.jpg 1x, ./images/project-3-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-3-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Ресторан Seafood</h3>
-                                    <p class="projects-list__dscr">Додаток</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-4-desktop1x.webp 1x, ./images/project-4-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-4-desktop1x.jpg 1x, ./images/project-4-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-4-tablet1x.webp 1x, ./images/project-4-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-4-tablet1x.jpg 1x, ./images/project-4-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-4-mobile1x.webp 1x, ./images/project-4-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-4-mobile1x.jpg 1x, ./images/project-4-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-4-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Проєкт Prime</h3>
-                                    <p class="projects-list__dscr">Маркетинг</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-5-desktop1x.webp 1x, ./images/project-5-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-5-desktop1x.jpg 1x, ./images/project-5-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-5-tablet1x.webp 1x, ./images/project-5-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-5-tablet1x.jpg 1x, ./images/project-5-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-5-mobile1x.webp 1x, ./images/project-5-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-5-mobile1x.jpg 1x, ./images/project-5-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-5-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Проєкт Boxes</h3>
-                                    <p class="projects-list__dscr">Додаток</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-6-desktop1x.webp 1x, ./images/project-6-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-6-desktop1x.jpg 1x, ./images/project-6-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-6-tablet1x.webp 1x, ./images/project-6-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-6-tablet1x.jpg 1x, ./images/project-6-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-6-mobile1x.webp 1x, ./images/project-6-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-6-mobile1x.jpg 1x, ./images/project-6-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-6-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Inspiration has no Borders</h3>
-                                    <p class="projects-list__dscr">Веб-сайт</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-7-desktop1x.webp 1x, ./images/project-7-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-7-desktop1x.jpg 1x, ./images/project-7-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-7-tablet1x.webp 1x, ./images/project-7-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-7-tablet1x.jpg 1x, ./images/project-7-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-7-mobile1x.webp 1x, ./images/project-7-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-7-mobile1x.jpg 1x, ./images/project-7-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-7-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Видання Limited Edition</h3>
-                                    <p class="projects-list__dscr">Дизайн</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-8-desktop1x.webp 1x, ./images/project-8-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-8-desktop1x.jpg 1x, ./images/project-8-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-8-tablet1x.webp 1x, ./images/project-8-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-8-tablet1x.jpg 1x, ./images/project-8-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-8-mobile1x.webp 1x, ./images/project-8-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-8-mobile1x.jpg 1x, ./images/project-8-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-8-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Проєкт LAB</h3>
-                                    <p class="projects-list__dscr">Маркетинг</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="projects-list__item">
-                        <a class="projects-list__link link" href="index.html">
-                            <div>
-                                <div class="projects-list__thumb">
-                                    <picture>
-                                        <source 
-                                        srcset="./images/project-9-desktop1x.webp 1x, ./images/project-9-desktop2x.webp 2x" 
-                                        media="(min-width: 1200px)"
-                                        type="image/webp" 
-                                        />
-                                        <source srcset="./images/project-9-desktop1x.jpg 1x, ./images/project-9-desktop2x.jpg 2x"
-                                          media="(min-width: 1200px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-9-tablet1x.webp 1x, ./images/project-9-tablet2x.webp 2x"
-                                          media="(min-width: 768px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-9-tablet1x.jpg 1x, ./images/project-9-tablet2x.jpg 2x"
-                                          media="(min-width: 768px)" 
-                                          />
-                          
-                                        <source srcset="./images/project-9-mobile1x.webp 1x, ./images/project-9-mobile2x.webp 2x"
-                                          media="(max-width: 767px)" 
-                                          type="image/webp" 
-                                          />
-                          
-                                        <source srcset="./images/project-9-mobile1x.jpg 1x, ./images/project-9-mobile2x.jpg 2x"
-                                          media="(max-width: 767px)" 
-                                          />
-                          
-                                        <img src="./images/project-9-mobile1x.jpg" alt="член команди" class="picture-img" />
-                                      </picture>
-                                    <div class="projects-list__text">
-                                        <p>Ресурс пропонує комплексні пропозиції з різним рівнем
-                                            функціоналу та сервісів. Все це
-                                            дозволить відвідувачу отримати
-                                            вичерпні відомості про компанію чи приватну особу.</p>
-                                    </div>
-                                </div>
-                                <div class="projects-list__wrapper">
-                                    <h3 class="projects-list__title">Growing Business</h3>
-                                    <p class="projects-list__dscr">Додаток</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <footer class="footer section">
-        <div class="container footer__container">
-          <div>
-            <a class="logo-footer__link link" href="index.html">
-              <span class="logo__web">Web</span><span class="logo-footer__studio">Studio</span>
-            </a>
-            <address class="address-list list link">
-              <span class="address-list__item address">м. Київ, пр-т Лесі Українки, 26</span>
-              <a class="address-list__item link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              <a class="address-list__item link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </address>
-          </div>
-          <div class="footer-social">
-            <h3 class="footer-title">приєднуйтесь</h3>
-            <ul class="footer-social__list list">
-              <li class="footer-social__item">
-                <a class="footer-social__link link" href="">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="images/icons.svg#icon-instagram">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link link" href="">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="images/icons.svg#icon-twitter">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link link" href="">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="images/icons.svg#icon-facebook">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link link" href="">
-                  <svg class="footer-social__icon" width="20" height="20">
-                    <use href="images/icons.svg#icon-linkedin">
-                    </use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-third-block">
-            <h3 class="footer-title">Підпишіться на розсилку</h3>
-            <form>
-              <span class="footer-subscribe-wrapper">
-                <input name="user_email" type="email" class="footer-subscribe-input" placeholder="E-mail" />
-                <button type="submit" class="footer-subscribe-btn">
-                  Підписатися
-                  <svg class="footer-subscribe-icon">
-                    <use href="images/icons.svg#icon-letter-send" width="24" height="24">
-                    </use>
-                  </svg>
-                </button>
-              </span>
-            </form>
-          </div>
-        </div>
-      </footer>
-      <script src="./js/mobile-menu.js"></script>
+          </span>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
