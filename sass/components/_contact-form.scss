@@ -101,8 +101,7 @@
 .contact-form__checkfield {
   position: relative;
   margin-bottom: 30px;
-  overflow-x: hidden;
-}
+  }
 
 .contact-form__checkmark {
   position: absolute;
@@ -143,10 +142,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .contact-form__checkmark {
-    padding-left: 2px;
-  }
-
   .contact-form__message {
       height: 120px;
   }
